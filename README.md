@@ -26,6 +26,6 @@ Exapmle:
           }
       }
     
-      return $this->render(['form' => $provider->getFormView()]);
+      return $this->render('login', ['form' => $provider->getFormView()]);
     }
   
