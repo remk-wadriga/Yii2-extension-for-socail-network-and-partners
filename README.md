@@ -1,11 +1,11 @@
 # Yii2-extension-for-socail-network-and-partners
 Extension for Yii2 auth partners
 
-Exapmle using:
-----------
+Exapmle:
 
 
-  public function actionLogin($provider = null) {
+
+  
     if ($provider !== null) {
         $provider = Yii::$app->provider->getIdentity($provider);
         $form = $provider->getForm();
@@ -26,4 +26,4 @@ Exapmle using:
   
         return $this->render(['form' => $provider->getFormView()]);
     }
-  }
+  
