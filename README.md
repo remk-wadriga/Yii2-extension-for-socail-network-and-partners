@@ -2,7 +2,7 @@
 Extension for Yii2 auth partners
 
 Exapmle using:
-
+----------
 
 
   public function actionLogin($provider = null) {
